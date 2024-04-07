@@ -1,6 +1,6 @@
 package com.liny.generator;
 
-import com.liny.model.MainTemplateConfig;
+import com.liny.model.DataModel;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;

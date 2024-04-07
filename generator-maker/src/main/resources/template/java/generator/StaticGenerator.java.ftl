@@ -1,4 +1,4 @@
-package com.liny.generator;
+package ${basePackage}.generator;
 
 import cn.hutool.core.io.FileUtil;
 

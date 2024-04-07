@@ -1,14 +1,13 @@
-package com.liny.generator;
+package com.liny.maker.generator.file;
 
 import cn.hutool.core.io.FileUtil;
-
-import java.io.File;
 
 /**
  * 静态文件生成器
  */
 
-public class StaticGenerator {
+public class StaticFileGenerator {
+
     /**
      * 拷贝文件(使用hutool)
      * @param srcPath 源文件路径
