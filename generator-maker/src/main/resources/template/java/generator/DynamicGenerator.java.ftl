@@ -4,7 +4,7 @@ import ${basePackage}.model.DataModel;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
-
+import cn.hutool.core.io.FileUtil;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -32,8 +32,12 @@ public class DynamicGenerator {
         String name = new File(srcPath).getName();
         Template template = configuration.getTemplate(name);
 
-        Writer writer = new FileWriter(destPath);
+        //如果文件不存在则创建目录
+        if(!FileUtil.exist(destPath)){
+        FileUtil.touch(destPath);
+        }
 
+        Writer writer = new FileWriter(destPath);
         template.process(model, writer);
 
         writer.close();    }
