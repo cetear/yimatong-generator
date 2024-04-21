@@ -3,13 +3,16 @@ package com.generator.acm;
 import java.util.Scanner;
 
 /**
-* ACMÊäÈëÄ£°å
-* @author liny
+* ACMè¾“å…¥æ¨¡æ¿
+* @author ${author}
 */
 public class MainTempalte {
 public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 
+<#if loop>
+    while(scanner.hasNext()){
+</#if>
         int n = scanner.nextInt();
 
         int[] arr = new int[n];
@@ -22,7 +25,10 @@ Scanner scanner = new Scanner(System.in);
         sum += num;
         }
 
-System.out.println("sum = " + sum);
+System.out.println("${outputText}" + sum);
+<#if loop>
+    }
+</#if>
 
 
 scanner.close();

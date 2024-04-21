@@ -6,8 +6,9 @@
   "author": "liny",
   "createTime": "2024-4-3",
   "fileConfig": {
-    "inputRootPath": "D:/YupiProgram/yimatong-generator/demo-projects/acm-template-pro",
+    "inputRootPath": ".source/acm-template-pro",
     "outputRootPath": "generated",
+    "sourceRootPath": "D:/YupiProgram/yimatong-generator/demo-projects/acm-template-pro",
     "type": "dir",
     "files": [
       {
