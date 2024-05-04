@@ -5,12 +5,19 @@ import cn.hutool.core.date.DateUnit;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
+import com.liny.maker.meta.enums.FileGenerateEnum;
+import com.liny.maker.meta.enums.FileTypeEnum;
+import com.liny.maker.meta.enums.ModelTypeEnum;
 
 import java.io.File;
 import java.nio.file.Paths;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 
+/**
+ * 对用户传进来的参数进行校验
+ */
 public class MetaValidator {
 
     public static void doValidAndFill(Meta meta){
@@ -70,13 +77,18 @@ public class MetaValidator {
 
             String fileConfigType = fileConfig.getType();
             if(StrUtil.isEmpty(fileConfigType)){
-                String defaultType = "dir";
+                String defaultType = FileTypeEnum.DIR.getValue();
                 fileConfig.setType(defaultType);
             }
 
+            //fileInfo默认值
             List<Meta.FileConfig.FileInfo> files = fileConfig.getFiles();
             if(CollUtil.isNotEmpty(files)){
                 for (Meta.FileConfig.FileInfo file : files) {
+                    String type1 = file.getType();
+                    if(FileTypeEnum.GROUP.getValue().equals(type1)){
+                        continue;
+                    }
                     //inputPath
                     String inputPath = file.getInputPath();
                     if(StrUtil.isBlank(inputPath)){
@@ -89,18 +101,18 @@ public class MetaValidator {
                     String type = file.getType();
                     if(StrUtil.isBlank(type)){
                         if(StrUtil.isBlank(FileUtil.getSuffix(inputPath))){
-                            file.setType("dir");
+                            file.setType(FileTypeEnum.DIR.getValue());
                         }else{
-                            file.setType("file");
+                            file.setType(FileTypeEnum.FILE.getValue());
                         }
                     }
                     //判断是否ftl，是就是动态，不是就是静态
                     String generateType = file.getGenerateType();
                     if(StrUtil.isBlank(generateType)){
                         if(inputPath.endsWith(".ftl")){
-                            file.setGenerateType("dynamic");
+                            file.setGenerateType(FileGenerateEnum.DYNAMIC.getValue());
                         }else {
-                            file.setGenerateType("static");
+                            file.setGenerateType(FileGenerateEnum.STATIC.getValue());
                         }
                     }
                 }
@@ -114,6 +126,18 @@ public class MetaValidator {
             List<Meta.ModelConfig.ModelInfo> models = modelConfig.getModels();
             if(CollUtil.isNotEmpty(models)){
                 for (Meta.ModelConfig.ModelInfo model : models) {
+                    //为group分组时不校验
+                    String groupKey = model.getGroupKey();
+                    if(StrUtil.isNotEmpty(groupKey)){
+                        //生成中间参数
+                        List<Meta.ModelConfig.ModelInfo> subModels = model.getModels();
+                        String allArgsStr = subModels.stream().
+                                map(subModel -> {return String.format("\"--%s\"", subModel.getFieldName());})
+                                .collect(Collectors.joining(", "));
+                        model.setAllArgsStr(allArgsStr);
+                        continue;
+                    }
+                    //
                     String fieldName = model.getFieldName();
                     if(StrUtil.isBlank(fieldName)){
                         throw new MetaException("未填写fileName");
@@ -121,7 +145,7 @@ public class MetaValidator {
 
                     String type = model.getType();
                     if(StrUtil.isEmpty(type)){
-                        model.setType("String");
+                        model.setType(ModelTypeEnum.STRING.getValue());
                     }
                 }
             }

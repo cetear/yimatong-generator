@@ -12,11 +12,11 @@ public class AllFileGenerator {
 
     public static void main(String[] args) throws TemplateException, IOException {
         //数据模型
-        DataModel dataModel = new DataModel();
-        dataModel.setAuthor("Liny");
-        dataModel.setOutputText("输出结果");
-        dataModel.setLoop(false);
-        doGenerate(dataModel);
+//        DataModel dataModel = new DataModel();
+//        dataModel.setAuthor("Liny");
+//        dataModel.setOutputText("输出结果");
+//        dataModel.setLoop(false);
+//        doGenerate(dataModel);
     }
 
     public static void doGenerate(Object model) throws TemplateException, IOException {

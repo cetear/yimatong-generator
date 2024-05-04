@@ -3,8 +3,8 @@ package com.generator.acm;
 import java.util.Scanner;
 
 /**
-* ACM输入模板
-* @author ${author}
+* 测试输入模板
+* @author ${mainTemplate.author!''}
 */
 public class MainTempalte {
 public static void main(String[] args) {
@@ -25,7 +25,7 @@ Scanner scanner = new Scanner(System.in);
         sum += num;
         }
 
-System.out.println("${outputText}" + sum);
+System.out.println("${mainTemplate.outputText!'sum = '}" + sum);
 <#if loop>
     }
 </#if>

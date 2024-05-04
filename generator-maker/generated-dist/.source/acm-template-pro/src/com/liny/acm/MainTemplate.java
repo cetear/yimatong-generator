@@ -3,7 +3,7 @@ package com.generator.acm;
 import java.util.Scanner;
 
 /**
- * ACM输入模板
+ * 测试输入模板
  */
 public class MainTempalte {
     public static void main(String[] args) {
