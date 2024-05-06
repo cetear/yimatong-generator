@@ -1,0 +1,24 @@
+{
+    "name": "acm-template-generator",
+    "description": "ACM 实例模板生成器",
+    "fileConfig": {
+        "sourceRootPath": "D:/YupiProgram/yimatong-generator/demo-projects/acm-template",
+        "files": [
+            {
+                "inputPath": "src/com/generator/acm/MainTemplate.java",
+                "outputPath": "src/com/generator/acm/MainTemplate.java.ftl",
+                "type": "file",
+                "generateType": "dynamic"
+            }
+        ]
+    },
+    "modelConfig": {
+        "models": [
+            {
+                "fieldName": "outputText",
+                "type": "String",
+                "defaultValue": "mySum = "
+            }
+        ]
+    }
+}

@@ -1,6 +1,6 @@
 package com.liny.maker.generator.file;
 
-import com.liny.maker.model.DataModel;
+
 import freemarker.template.TemplateException;
 
 import java.io.File;
@@ -10,14 +10,6 @@ public class AllFileGenerator {
 
     String mypath = "src/main/resources/template/MainTemplate.java.ftl";
 
-    public static void main(String[] args) throws TemplateException, IOException {
-        //数据模型
-//        DataModel dataModel = new DataModel();
-//        dataModel.setAuthor("Liny");
-//        dataModel.setOutputText("输出结果");
-//        dataModel.setLoop(false);
-//        doGenerate(dataModel);
-    }
 
     public static void doGenerate(Object model) throws TemplateException, IOException {
         String projectPath = System.getProperty("user.dir");

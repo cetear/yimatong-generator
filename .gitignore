@@ -1,6 +1,7 @@
 ### Custom Template
 .idea
 yimatong-generator.iml
+.temp
 
 ### Java template
 # Compiled class file
