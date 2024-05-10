@@ -1,0 +1,2266 @@
+{
+    "name": "springboot-init-generator",
+    "description": "Spring Boot 模板项目生成器",
+    "fileConfig": {
+        "sourceRootPath": "D:/YupiProgram/yimatong-generator/generator-maker/.temp/1/springboot-init-master",
+        "files": [
+            {
+                "condition": "needPost",
+                "groupKey": "post",
+                "groupName": "帖子文件组",
+                "type": "group",
+                "files": [
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/service/PostThumbService.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/service/PostThumbService.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/resources/mapper/PostMapper.xml.ftl",
+                        "outputPath": "src/main/resources/mapper/PostMapper.xml",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/resources/mapper/PostFavourMapper.xml.ftl",
+                        "outputPath": "src/main/resources/mapper/PostFavourMapper.xml",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/postfavour/PostFavourQueryRequest.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/postfavour/PostFavourQueryRequest.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/job/once/FullSyncPostToEs.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/job/once/FullSyncPostToEs.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/controller/PostThumbController.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/controller/PostThumbController.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/postthumb/PostThumbAddRequest.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/postthumb/PostThumbAddRequest.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/entity/PostFavour.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/entity/PostFavour.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/postfavour/PostFavourAddRequest.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/postfavour/PostFavourAddRequest.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/entity/Post.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/entity/Post.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/service/impl/PostServiceImpl.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/service/impl/PostServiceImpl.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/job/cycle/IncSyncPostToEs.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/job/cycle/IncSyncPostToEs.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/service/impl/PostThumbServiceImpl.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/service/impl/PostThumbServiceImpl.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/service/impl/PostFavourServiceImpl.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/service/impl/PostFavourServiceImpl.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostQueryRequest.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostQueryRequest.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/controller/PostFavourController.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/controller/PostFavourController.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/entity/PostThumb.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/entity/PostThumb.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/mapper/PostFavourMapper.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/mapper/PostFavourMapper.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/controller/PostController.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/controller/PostController.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/mapper/PostMapper.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/mapper/PostMapper.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/service/PostService.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/service/PostService.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostAddRequest.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostAddRequest.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/mapper/PostThumbMapper.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/mapper/PostThumbMapper.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/esdao/PostEsDao.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/esdao/PostEsDao.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/service/PostFavourService.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/service/PostFavourService.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/vo/PostVO.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/vo/PostVO.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostUpdateRequest.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostUpdateRequest.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/resources/mapper/PostThumbMapper.xml.ftl",
+                        "outputPath": "src/main/resources/mapper/PostThumbMapper.xml",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    },
+                    {
+                        "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostEditRequest.java.ftl",
+                        "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostEditRequest.java",
+                        "type": "file",
+                        "generateType": "dynamic"
+                    }
+                ]
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostEsDTO.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/post/PostEsDTO.java",
+                "type": "file",
+                "generateType": "dynamic",
+                "condition": "needPost"
+            },
+            {
+                "inputPath": ".git/objects/67/17030d3e1a970d44d5655106521fc3d6008d3c",
+                "outputPath": ".git/objects/67/17030d3e1a970d44d5655106521fc3d6008d3c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d9/3a659639781f1edd94d68ffb05b294de6af14a",
+                "outputPath": ".git/objects/d9/3a659639781f1edd94d68ffb05b294de6af14a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/c6/d7af91749b83105f8030040768e9fa1cbe26c4",
+                "outputPath": ".git/objects/c6/d7af91749b83105f8030040768e9fa1cbe26c4",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/71/2c0b0f915a4f03b66de73bac61d62f933cfb8b",
+                "outputPath": ".git/objects/71/2c0b0f915a4f03b66de73bac61d62f933cfb8b",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/exception/BusinessException.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/exception/BusinessException.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/enums/UserRoleEnum.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/enums/UserRoleEnum.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".idea/dataSources.xml",
+                "outputPath": ".idea/dataSources.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/54/9e00a2a96fa9d7c5dbc9859664a78d980158c2",
+                "outputPath": ".git/objects/54/9e00a2a96fa9d7c5dbc9859664a78d980158c2",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/72/402255f45999cb18039372c5bd58661d58f636",
+                "outputPath": ".git/objects/72/402255f45999cb18039372c5bd58661d58f636",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/bb/b8f523f0ff1df59a253183adeaca3e4c36b7eb",
+                "outputPath": ".git/objects/bb/b8f523f0ff1df59a253183adeaca3e4c36b7eb",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/misc.xml",
+                "outputPath": ".idea/misc.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d3/648cbc34f2607a63251ad1c41b60eea737e33d",
+                "outputPath": ".git/objects/d3/648cbc34f2607a63251ad1c41b60eea737e33d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/test/.DS_Store",
+                "outputPath": "src/test/.DS_Store",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/b0/859643d92a4574b7a87dd38e12c8077c041056",
+                "outputPath": ".git/objects/b0/859643d92a4574b7a87dd38e12c8077c041056",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/constant/UserConstant.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/constant/UserConstant.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/wxmp/handler/EventHandler.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/wxmp/handler/EventHandler.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/1c/1a9292eddd89d6534d5ff1c971b67997bdcd35",
+                "outputPath": ".git/objects/1c/1a9292eddd89d6534d5ff1c971b67997bdcd35",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/enums/FileUploadBizEnum.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/enums/FileUploadBizEnum.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/cf/ea703a4fc4424f4172adad8419f1a885b32d81",
+                "outputPath": ".git/objects/cf/ea703a4fc4424f4172adad8419f1a885b32d81",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/6a/5cd596961c13205bd9679622d8f5bf969ad328",
+                "outputPath": ".git/objects/6a/5cd596961c13205bd9679622d8f5bf969ad328",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/f1/d64bd16e0f372231dec0c7eeac9f057bb42072",
+                "outputPath": ".git/objects/f1/d64bd16e0f372231dec0c7eeac9f057bb42072",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a2/35ec9e403b21d001791a98289b4e2333ee426b",
+                "outputPath": ".git/objects/a2/35ec9e403b21d001791a98289b4e2333ee426b",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a2/884d9079bbae691ca808ecb43933b93aa6c010",
+                "outputPath": ".git/objects/a2/884d9079bbae691ca808ecb43933b93aa6c010",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/7e/664e6721bc46f1dac79395cf09129c1cc61e2e",
+                "outputPath": ".git/objects/7e/664e6721bc46f1dac79395cf09129c1cc61e2e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/8b/57045adcbd0577f33ea4421fca1320daf11edf",
+                "outputPath": ".git/objects/8b/57045adcbd0577f33ea4421fca1320daf11edf",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/c8/d52009d499fefbbefb1cf14626a00a748414f4",
+                "outputPath": ".git/objects/c8/d52009d499fefbbefb1cf14626a00a748414f4",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/91/83e64b16239feaf0891543db8f27ed61fabc76",
+                "outputPath": ".git/objects/91/83e64b16239feaf0891543db8f27ed61fabc76",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/b2/4c497c94c37a5fb0002925e699c5df18e69b2c",
+                "outputPath": ".git/objects/b2/4c497c94c37a5fb0002925e699c5df18e69b2c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/09/5fa84d50591c57751c250c4a5dd5e4c8e06825",
+                "outputPath": ".git/objects/09/5fa84d50591c57751c250c4a5dd5e4c8e06825",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/e2/5806b9414e7c01cf0149db81eff9cf2c9bfb83",
+                "outputPath": ".git/objects/e2/5806b9414e7c01cf0149db81eff9cf2c9bfb83",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/41/cfcfa1bcbf15c58a4945f92a3815220e7bbccc",
+                "outputPath": ".git/objects/41/cfcfa1bcbf15c58a4945f92a3815220e7bbccc",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/46/f9d165d099f2b58f448e0e8c26828c7070fa13",
+                "outputPath": ".git/objects/46/f9d165d099f2b58f448e0e8c26828c7070fa13",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/f7/52cb9790ba48e9eb50e785c3c3ab3221e75b75",
+                "outputPath": ".git/objects/f7/52cb9790ba48e9eb50e785c3c3ab3221e75b75",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/57/246500de16190ac1a22e042f2a33e58d1a87d9",
+                "outputPath": ".git/objects/57/246500de16190ac1a22e042f2a33e58d1a87d9",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".mvn/wrapper/maven-wrapper.properties",
+                "outputPath": ".mvn/wrapper/maven-wrapper.properties",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/utils/SpringContextUtils.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/utils/SpringContextUtils.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/ee/97db6af55ac36ebd92172adf0c754abcb875ee",
+                "outputPath": ".git/objects/ee/97db6af55ac36ebd92172adf0c754abcb875ee",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserUpdateRequest.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserUpdateRequest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/fb/40832389fbcde166b49148a94bbb1576185381",
+                "outputPath": ".git/objects/fb/40832389fbcde166b49148a94bbb1576185381",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/20/ef10e8715423dc0c8b180d4e518c5e3763526d",
+                "outputPath": ".git/objects/20/ef10e8715423dc0c8b180d4e518c5e3763526d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/61/0ca49a4437d06751625bf1c8e84c5e06e83cf0",
+                "outputPath": ".git/objects/61/0ca49a4437d06751625bf1c8e84c5e06e83cf0",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/28/215bb20701bd6da9b407dc9d858844812c025c",
+                "outputPath": ".git/objects/28/215bb20701bd6da9b407dc9d858844812c025c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/b4/7d62c95535ccc4bcb33f0a4cfe8058f4f3642c",
+                "outputPath": ".git/objects/b4/7d62c95535ccc4bcb33f0a4cfe8058f4f3642c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/constant/CommonConstant.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/constant/CommonConstant.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/hooks/prepare-commit-msg.sample",
+                "outputPath": ".git/hooks/prepare-commit-msg.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/controller/FileController.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/controller/FileController.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/aop/AuthInterceptor.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/aop/AuthInterceptor.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/e8/03a4ba297ff8f4d7ab7c52fab8dc892deba04c",
+                "outputPath": ".git/objects/e8/03a4ba297ff8f4d7ab7c52fab8dc892deba04c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/46/fe0e977b64c4bcdc0a9a474531cbe0f7c5caae",
+                "outputPath": ".git/objects/46/fe0e977b64c4bcdc0a9a474531cbe0f7c5caae",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ea/af04556e93d6d53de26717edcb9e5989fe7c0a",
+                "outputPath": ".git/objects/ea/af04556e93d6d53de26717edcb9e5989fe7c0a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/refs/heads/master",
+                "outputPath": ".git/refs/heads/master",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserRegisterRequest.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserRegisterRequest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/0b/152c56b1436bf69516640fe451e633f1880eb8",
+                "outputPath": ".git/objects/0b/152c56b1436bf69516640fe451e633f1880eb8",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/c4/da6ca1355411235cab5dbdc25557f861f3e5b3",
+                "outputPath": ".git/objects/c4/da6ca1355411235cab5dbdc25557f861f3e5b3",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/e8/bc33d2d0e69a7a2f4611e63fb64449c9a01714",
+                "outputPath": ".git/objects/e8/bc33d2d0e69a7a2f4611e63fb64449c9a01714",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "pom.xml.ftl",
+                "outputPath": "pom.xml",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/94/cb857c11867773566c4836619d470c07b78575",
+                "outputPath": ".git/objects/94/cb857c11867773566c4836619d470c07b78575",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ff/bbb9743b200d80a959d643cc855582f65ae4a8",
+                "outputPath": ".git/objects/ff/bbb9743b200d80a959d643cc855582f65ae4a8",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/dataSources.local.xml",
+                "outputPath": ".idea/dataSources.local.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d3/312afe1024985fa190c811b4c59fec44b56b56",
+                "outputPath": ".git/objects/d3/312afe1024985fa190c811b4c59fec44b56b56",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/MainApplication.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/MainApplication.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/esdao/PostEsDaoTest.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/esdao/PostEsDaoTest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/03/3db2624c7ae23c2331ae0070bd78dca97d37eb",
+                "outputPath": ".git/objects/03/3db2624c7ae23c2331ae0070bd78dca97d37eb",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/64/53a57f95e26a5c862be1288beca537e68f8c79",
+                "outputPath": ".git/objects/64/53a57f95e26a5c862be1288beca537e68f8c79",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/b7/4eb9f3d69addfc64ef77534e25f4eec3fe437e",
+                "outputPath": ".git/objects/b7/4eb9f3d69addfc64ef77534e25f4eec3fe437e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a3/55a275142d096954411ffcb26554ec265c2106",
+                "outputPath": ".git/objects/a3/55a275142d096954411ffcb26554ec265c2106",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/1c/d4ed40493ff7c52279cb1df6c7d086aa0c7177",
+                "outputPath": ".git/objects/1c/d4ed40493ff7c52279cb1df6c7d086aa0c7177",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/4e/8f9cb92144123067f5846b4c70b2fad8ea1fd4",
+                "outputPath": ".git/objects/4e/8f9cb92144123067f5846b4c70b2fad8ea1fd4",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/mapper/UserMapper.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/mapper/UserMapper.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/mapper/PostFavourMapperTest.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/mapper/PostFavourMapperTest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/51/2d9eb35c552d5baa497086659b08d0a142967e",
+                "outputPath": ".git/objects/51/2d9eb35c552d5baa497086659b08d0a142967e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/da/1ddf5617ea74aa91c756354e27234f8482fc12",
+                "outputPath": ".git/objects/da/1ddf5617ea74aa91c756354e27234f8482fc12",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/exception/ThrowUtils.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/exception/ThrowUtils.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/58/e39a86a24b8b0cb7547986f2d2032b02a0b271",
+                "outputPath": ".git/objects/58/e39a86a24b8b0cb7547986f2d2032b02a0b271",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/c5/7cf5ee89928f73eb83ec587efb67ed7e89affe",
+                "outputPath": ".git/objects/c5/7cf5ee89928f73eb83ec587efb67ed7e89affe",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/f8/90aac0e437664244cfd166a4f14a0dd22c6abc",
+                "outputPath": ".git/objects/f8/90aac0e437664244cfd166a4f14a0dd22c6abc",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/be/5fb1b3dfc56121d4fe57c919b0306cece28827",
+                "outputPath": ".git/objects/be/5fb1b3dfc56121d4fe57c919b0306cece28827",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/c7/264f0eee6806410c15839608e4aa3796080884",
+                "outputPath": ".git/objects/c7/264f0eee6806410c15839608e4aa3796080884",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/common/BaseResponse.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/common/BaseResponse.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/wxmp/WxMpConstant.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/wxmp/WxMpConstant.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/d2/482c181307b7c6affc41000cafe3921ea92cb4",
+                "outputPath": ".git/objects/d2/482c181307b7c6affc41000cafe3921ea92cb4",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/logs/HEAD",
+                "outputPath": ".git/logs/HEAD",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/6e/17ba6534e356e0ddc0d9d937436ae271cfc78a",
+                "outputPath": ".git/objects/6e/17ba6534e356e0ddc0d9d937436ae271cfc78a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d5/7b866cb269936ef3f143314272c5118af5f761",
+                "outputPath": ".git/objects/d5/7b866cb269936ef3f143314272c5118af5f761",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/dataSources/d2d00328-ee6b-4613-a519-e274f69b1283/storage_v2/_src_/schema/information_schema.FNRwLQ.meta",
+                "outputPath": ".idea/dataSources/d2d00328-ee6b-4613-a519-e274f69b1283/storage_v2/_src_/schema/information_schema.FNRwLQ.meta",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/73/de4fe6b02c524bb0e0bf9f99873ef081b76c1e",
+                "outputPath": ".git/objects/73/de4fe6b02c524bb0e0bf9f99873ef081b76c1e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/resources/application.yml.ftl",
+                "outputPath": "src/main/resources/application.yml",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/10/bea8ed54957373ca8e11be2a8e30a070798e2e",
+                "outputPath": ".git/objects/10/bea8ed54957373ca8e11be2a8e30a070798e2e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/mapper/PostMapperTest.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/mapper/PostMapperTest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/65/5272dd4c2edd5208a469976614adae621c38d9",
+                "outputPath": ".git/objects/65/5272dd4c2edd5208a469976614adae621c38d9",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/common/PageRequest.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/common/PageRequest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/config/MyBatisPlusConfig.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/config/MyBatisPlusConfig.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/ad/aae378069730847a9046abb481e8499a21041b",
+                "outputPath": ".git/objects/ad/aae378069730847a9046abb481e8499a21041b",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/encodings.xml",
+                "outputPath": ".idea/encodings.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/24/838a2d68e4d474ea87d70afa59fa0d70d11d51",
+                "outputPath": ".git/objects/24/838a2d68e4d474ea87d70afa59fa0d70d11d51",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/9e/fa828044404633990233cf55a63a9bda34db08",
+                "outputPath": ".git/objects/9e/fa828044404633990233cf55a63a9bda34db08",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/64/7b76c0196842eba57951207a0a34130b5c6969",
+                "outputPath": ".git/objects/64/7b76c0196842eba57951207a0a34130b5c6969",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/config/WxOpenConfig.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/config/WxOpenConfig.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/config",
+                "outputPath": ".git/config",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/57/a362fdafa6c88996ec1764026db8b5a1c0b94e",
+                "outputPath": ".git/objects/57/a362fdafa6c88996ec1764026db8b5a1c0b94e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/01/2fe020343a38686118af91f62fede36661cb28",
+                "outputPath": ".git/objects/01/2fe020343a38686118af91f62fede36661cb28",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/b1/bbee09c22467da382be59e02131e243cc58636",
+                "outputPath": ".git/objects/b1/bbee09c22467da382be59e02131e243cc58636",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/1a/b7ed111b42baa42bbe654d1d9d36a134b0e98a",
+                "outputPath": ".git/objects/1a/b7ed111b42baa42bbe654d1d9d36a134b0e98a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/97/ab0fe29a26f54a3d84ef0452f97934a6e2f9b0",
+                "outputPath": ".git/objects/97/ab0fe29a26f54a3d84ef0452f97934a6e2f9b0",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/16/aa319e60788d904647a78989616b49a097a50e",
+                "outputPath": ".git/objects/16/aa319e60788d904647a78989616b49a097a50e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/common/DeleteRequest.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/common/DeleteRequest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/a1/0c9ede18b00687298cd18b83038489c1beb484",
+                "outputPath": ".git/objects/a1/0c9ede18b00687298cd18b83038489c1beb484",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".DS_Store",
+                "outputPath": ".DS_Store",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/pre-push.sample",
+                "outputPath": ".git/hooks/pre-push.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/6b/5ba439d43b473f6d06d00d1718f056268896c9",
+                "outputPath": ".git/objects/6b/5ba439d43b473f6d06d00d1718f056268896c9",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/87/9b649fc6e2bd1c355a38f551954bfe00bcf227",
+                "outputPath": ".git/objects/87/9b649fc6e2bd1c355a38f551954bfe00bcf227",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d0/ed37b65d0b9b2afce5d0a82d998376b7019bcf",
+                "outputPath": ".git/objects/d0/ed37b65d0b9b2afce5d0a82d998376b7019bcf",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/82/605e134a1c749f43257f56344cad3873eb3195",
+                "outputPath": ".git/objects/82/605e134a1c749f43257f56344cad3873eb3195",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ec/0ebce32935226bf31ae2dd3f26f53bb7471513",
+                "outputPath": ".git/objects/ec/0ebce32935226bf31ae2dd3f26f53bb7471513",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/config/CorsConfig.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/config/CorsConfig.java",
+                "type": "file",
+                "generateType": "dynamic",
+                "condition": "needCors"
+            },
+            {
+                "inputPath": ".git/objects/e8/0934df7a78608b641d3241461c25566a39fbdb",
+                "outputPath": ".git/objects/e8/0934df7a78608b641d3241461c25566a39fbdb",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/pre-rebase.sample",
+                "outputPath": ".git/hooks/pre-rebase.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/utils/SqlUtils.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/utils/SqlUtils.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "sql/post_es_mapping.json",
+                "outputPath": "sql/post_es_mapping.json",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/45/f6e9ee2a486e407eeb44c7dbd3659378c446a5",
+                "outputPath": ".git/objects/45/f6e9ee2a486e407eeb44c7dbd3659378c446a5",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/.gitignore",
+                "outputPath": ".idea/.gitignore",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/bd/87128f85fbcd0c7b3455dc7df9d0a17255f05f",
+                "outputPath": ".git/objects/bd/87128f85fbcd0c7b3455dc7df9d0a17255f05f",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a2/f11073f3bd8f8241fd0a895cd9c5f0fc814ad3",
+                "outputPath": ".git/objects/a2/f11073f3bd8f8241fd0a895cd9c5f0fc814ad3",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/cb/3c23739eb691c70f8003433f1e88c33f7819ce",
+                "outputPath": ".git/objects/cb/3c23739eb691c70f8003433f1e88c33f7819ce",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/info/exclude",
+                "outputPath": ".git/info/exclude",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/be/a510f7dfc8994a4352c00fa6b8c490421218f0",
+                "outputPath": ".git/objects/be/a510f7dfc8994a4352c00fa6b8c490421218f0",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/aop/LogInterceptor.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/aop/LogInterceptor.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/8d/79cd58fba0b291c41c592bab7d7c4598a8b47f",
+                "outputPath": ".git/objects/8d/79cd58fba0b291c41c592bab7d7c4598a8b47f",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/applypatch-msg.sample",
+                "outputPath": ".git/hooks/applypatch-msg.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/13/c465be6c653935f646f948c6f0258ce002b107",
+                "outputPath": ".git/objects/13/c465be6c653935f646f948c6f0258ce002b107",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/2b/d8d919f3e2c37b74f6da817f8c05aae658c9c6",
+                "outputPath": ".git/objects/2b/d8d919f3e2c37b74f6da817f8c05aae658c9c6",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/7c/7ac4cc89d24b71ebffcd38e1b1f842766dbfb4",
+                "outputPath": ".git/objects/7c/7ac4cc89d24b71ebffcd38e1b1f842766dbfb4",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/59/10733fab07bf5ff129e1f987b1d0a7e756ac15",
+                "outputPath": ".git/objects/59/10733fab07bf5ff129e1f987b1d0a7e756ac15",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ed/bd83bde7c0d820dbf88dba1f6d5cc3ef9ca1c8",
+                "outputPath": ".git/objects/ed/bd83bde7c0d820dbf88dba1f6d5cc3ef9ca1c8",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/6c/304989acc270ebdf25cfbe7e0dd2e5ae7890ca",
+                "outputPath": ".git/objects/6c/304989acc270ebdf25cfbe7e0dd2e5ae7890ca",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/91/672d1853019d6957ff6d3b05758a724de8dc99",
+                "outputPath": ".git/objects/91/672d1853019d6957ff6d3b05758a724de8dc99",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ff/9e28a842851bd3bc0317f2e13e09932e7f44be",
+                "outputPath": ".git/objects/ff/9e28a842851bd3bc0317f2e13e09932e7f44be",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/45/35b9582a75b16535deb6c491b6bb1736a87bbb",
+                "outputPath": ".git/objects/45/35b9582a75b16535deb6c491b6bb1736a87bbb",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/64/243609773754a12ea92672a4fda1e227e9c72f",
+                "outputPath": ".git/objects/64/243609773754a12ea92672a4fda1e227e9c72f",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a8/b7dcfa1452c969e695251e889f7ffae2eb4b40",
+                "outputPath": ".git/objects/a8/b7dcfa1452c969e695251e889f7ffae2eb4b40",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/f7/890e4970396f41e753b65d1576938f8f6af4df",
+                "outputPath": ".git/objects/f7/890e4970396f41e753b65d1576938f8f6af4df",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".gitignore",
+                "outputPath": ".gitignore",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/resources/test_excel.xlsx",
+                "outputPath": "src/main/resources/test_excel.xlsx",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/e7/b0e64492697dc01936bcb8dc5ce2696fe623fc",
+                "outputPath": ".git/objects/e7/b0e64492697dc01936bcb8dc5ce2696fe623fc",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/58/f84641827352b12518a1f32e9cb616704599a8",
+                "outputPath": ".git/objects/58/f84641827352b12518a1f32e9cb616704599a8",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/pre-merge-commit.sample",
+                "outputPath": ".git/hooks/pre-merge-commit.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/02/d83e60f6f027703b4e79e317ea7b1a6381fad0",
+                "outputPath": ".git/objects/02/d83e60f6f027703b4e79e317ea7b1a6381fad0",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/vcs.xml",
+                "outputPath": ".idea/vcs.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/3f/266f417ee0efd930c992595190a97cfafcefdb",
+                "outputPath": ".git/objects/3f/266f417ee0efd930c992595190a97cfafcefdb",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/40/0e19486aa9bec2de52c5874ac667362cfd8415",
+                "outputPath": ".git/objects/40/0e19486aa9bec2de52c5874ac667362cfd8415",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/9e/55a5a744aabde08cf72b502ce3a4f6844ce0cb",
+                "outputPath": ".git/objects/9e/55a5a744aabde08cf72b502ce3a4f6844ce0cb",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/HEAD",
+                "outputPath": ".git/HEAD",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/27/847a91c2cd6656c56d9551a0b0c0fed5da6f6e",
+                "outputPath": ".git/objects/27/847a91c2cd6656c56d9551a0b0c0fed5da6f6e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/service/PostFavourServiceTest.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/service/PostFavourServiceTest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/3f/90f1ef8dc2f1eabc3a66b4b39a3966b8124ffc",
+                "outputPath": ".git/objects/3f/90f1ef8dc2f1eabc3a66b4b39a3966b8124ffc",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/controller/WxMpController.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/controller/WxMpController.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/94/ccd2a6bcbb4bc22cb2e3612839be7820ddcafb",
+                "outputPath": ".git/objects/94/ccd2a6bcbb4bc22cb2e3612839be7820ddcafb",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/e8/d79fbbe6a863d604f429b22eef1bc7a02d753a",
+                "outputPath": ".git/objects/e8/d79fbbe6a863d604f429b22eef1bc7a02d753a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/6a/49415e9b9f6dc983a6ac75913f3885097a48a1",
+                "outputPath": ".git/objects/6a/49415e9b9f6dc983a6ac75913f3885097a48a1",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/4a/3c600c29b28c4a9a81cbef760d00f5ab2370d1",
+                "outputPath": ".git/objects/4a/3c600c29b28c4a9a81cbef760d00f5ab2370d1",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/logs/refs/heads/master",
+                "outputPath": ".git/logs/refs/heads/master",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/utils/EasyExcelTest.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/utils/EasyExcelTest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/description",
+                "outputPath": ".git/description",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/8a/8fb2282df5b8f7263470a5a2dc0e196f35f35f",
+                "outputPath": ".git/objects/8a/8fb2282df5b8f7263470a5a2dc0e196f35f35f",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/1e/291516ebc943e486c96c19ad757c6e941990bf",
+                "outputPath": ".git/objects/1e/291516ebc943e486c96c19ad757c6e941990bf",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/96/bd2f374a0204ff816272e6e87d28c757a7306d",
+                "outputPath": ".git/objects/96/bd2f374a0204ff816272e6e87d28c757a7306d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/39/34984dd8a02def68aba21af67c7ffbd5c873e6",
+                "outputPath": ".git/objects/39/34984dd8a02def68aba21af67c7ffbd5c873e6",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ca/60244d3c861e7bc8f04054ed2d46211b30eabe",
+                "outputPath": ".git/objects/ca/60244d3c861e7bc8f04054ed2d46211b30eabe",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/e2/5468a59cbbfb05f0fa2a5e8e56889965cbead0",
+                "outputPath": ".git/objects/e2/5468a59cbbfb05f0fa2a5e8e56889965cbead0",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/1d/8ab018eaf11d9b3a4a90e7818ace373dfbb380",
+                "outputPath": ".git/objects/1d/8ab018eaf11d9b3a4a90e7818ace373dfbb380",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "mvnw",
+                "outputPath": "mvnw",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/wxmp/handler/MessageHandler.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/wxmp/handler/MessageHandler.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/MainApplicationTests.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/MainApplicationTests.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "sql/create_table.sql",
+                "outputPath": "sql/create_table.sql",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/4f/331fec6d7df3ee91bbb63906da1f2bcbcbe2fb",
+                "outputPath": ".git/objects/4f/331fec6d7df3ee91bbb63906da1f2bcbcbe2fb",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/c0/fcf94f29d867c6f7d4a496c56d395dc25d0741",
+                "outputPath": ".git/objects/c0/fcf94f29d867c6f7d4a496c56d395dc25d0741",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/vo/LoginUserVO.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/vo/LoginUserVO.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/resources/application-prod.yml",
+                "outputPath": "src/main/resources/application-prod.yml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/config/CosClientConfig.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/config/CosClientConfig.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/85/365864824e12a254e4c70f009bb9bbb0cb3e3a",
+                "outputPath": ".git/objects/85/365864824e12a254e4c70f009bb9bbb0cb3e3a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a0/f368e883484ebf75b4997edb6bf8486c72b416",
+                "outputPath": ".git/objects/a0/f368e883484ebf75b4997edb6bf8486c72b416",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/dataSources/d2d00328-ee6b-4613-a519-e274f69b1283/storage_v2/_src_/schema/mysql.osA4Bg.meta",
+                "outputPath": ".idea/dataSources/d2d00328-ee6b-4613-a519-e274f69b1283/storage_v2/_src_/schema/mysql.osA4Bg.meta",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/dataSources/d2d00328-ee6b-4613-a519-e274f69b1283.xml",
+                "outputPath": ".idea/dataSources/d2d00328-ee6b-4613-a519-e274f69b1283.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/42/d8457e977b9ae0a2bc4f8ec467c4f2f0778e3d",
+                "outputPath": ".git/objects/42/d8457e977b9ae0a2bc4f8ec467c4f2f0778e3d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/workspace.xml.ftl",
+                "outputPath": ".idea/workspace.xml",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/14/a8094958145e9909272d2321c6d94a4092e2df",
+                "outputPath": ".git/objects/14/a8094958145e9909272d2321c6d94a4092e2df",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserAddRequest.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserAddRequest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/3c/057166103f0839ddec13cc607c53e925080bc2",
+                "outputPath": ".git/objects/3c/057166103f0839ddec13cc607c53e925080bc2",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/87/d7a156ebdc3b5b47e498f288e46c775de3d047",
+                "outputPath": ".git/objects/87/d7a156ebdc3b5b47e498f288e46c775de3d047",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/1c/8a2cbf4a4305e6b6e52be8c04eb8dcef6d1f84",
+                "outputPath": ".git/objects/1c/8a2cbf4a4305e6b6e52be8c04eb8dcef6d1f84",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/97/3093f5b3caa9946287144b4783fc051c0d49f4",
+                "outputPath": ".git/objects/97/3093f5b3caa9946287144b4783fc051c0d49f4",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/67/2a3afc2721bf1dd5595af36b89d4f938098e70",
+                "outputPath": ".git/objects/67/2a3afc2721bf1dd5595af36b89d4f938098e70",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/9c/1e17be6c5fccb455927f3a0e771c389398970d",
+                "outputPath": ".git/objects/9c/1e17be6c5fccb455927f3a0e771c389398970d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/b5/62fa8dfeb48fb5bc129c7528b2c2a91fe8d554",
+                "outputPath": ".git/objects/b5/62fa8dfeb48fb5bc129c7528b2c2a91fe8d554",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/jarRepositories.xml",
+                "outputPath": ".idea/jarRepositories.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/00/1b7e223fdae0f3a7106d3df5abc0d7cac3c359",
+                "outputPath": ".git/objects/00/1b7e223fdae0f3a7106d3df5abc0d7cac3c359",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/20/ebe9ce57010028800e2322cb0a809431da82ae",
+                "outputPath": ".git/objects/20/ebe9ce57010028800e2322cb0a809431da82ae",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/b7/985c99b64f9e1deafe72c8f13a751a64d042a1",
+                "outputPath": ".git/objects/b7/985c99b64f9e1deafe72c8f13a751a64d042a1",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "mvnw.cmd",
+                "outputPath": "mvnw.cmd",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/push-to-checkout.sample",
+                "outputPath": ".git/hooks/push-to-checkout.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/resources/application-test.yml",
+                "outputPath": "src/main/resources/application-test.yml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/b0/186bafea17cc9d26dcf93f1f9b949452dfbd5c",
+                "outputPath": ".git/objects/b0/186bafea17cc9d26dcf93f1f9b949452dfbd5c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/wxmp/WxMpMsgRouter.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/wxmp/WxMpMsgRouter.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/service/UserService.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/service/UserService.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/manager/CosManagerTest.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/manager/CosManagerTest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/31/004df52afb88ccb49d9a75c121805442f287b7",
+                "outputPath": ".git/objects/31/004df52afb88ccb49d9a75c121805442f287b7",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/02/f6968f0ead1c7e9045c6e148dfbbced47d55f4",
+                "outputPath": ".git/objects/02/f6968f0ead1c7e9045c6e148dfbbced47d55f4",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d7/e812b5bae3486f4fd52e57f88088bd8b3f07ac",
+                "outputPath": ".git/objects/d7/e812b5bae3486f4fd52e57f88088bd8b3f07ac",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/74/8395d77c3e2ac212433f389cda296a871e3c80",
+                "outputPath": ".git/objects/74/8395d77c3e2ac212433f389cda296a871e3c80",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/compiler.xml",
+                "outputPath": ".idea/compiler.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/8b/607baeb87802de2c2bc63b7ca5c3be7d1f50dc",
+                "outputPath": ".git/objects/8b/607baeb87802de2c2bc63b7ca5c3be7d1f50dc",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ec/fd83998dcf70e1e09f03c5adfaa7192cd28263",
+                "outputPath": ".git/objects/ec/fd83998dcf70e1e09f03c5adfaa7192cd28263",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/01/75b6867f83dd31c061f012226b945cad4f9e3b",
+                "outputPath": ".git/objects/01/75b6867f83dd31c061f012226b945cad4f9e3b",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/71/3cc1d0c9f752ce4894836f2de57110fd51a2e5",
+                "outputPath": ".git/objects/71/3cc1d0c9f752ce4894836f2de57110fd51a2e5",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/fa/84682d09ba26a4a00d7a7b7ea528377023f41d",
+                "outputPath": ".git/objects/fa/84682d09ba26a4a00d7a7b7ea528377023f41d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/service/UserServiceTest.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/service/UserServiceTest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/55/032a390348daa85f550ba23e999aef1fefd772",
+                "outputPath": ".git/objects/55/032a390348daa85f550ba23e999aef1fefd772",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ca/270e97801722305c32427a56e43e18bbe34fd0",
+                "outputPath": ".git/objects/ca/270e97801722305c32427a56e43e18bbe34fd0",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/87/46a7fc167a8c28b3b0d7a7f3f103ba7d7ed3a2",
+                "outputPath": ".git/objects/87/46a7fc167a8c28b3b0d7a7f3f103ba7d7ed3a2",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ed/57453a042696ad7fdfce2011ea14ba35b52a57",
+                "outputPath": ".git/objects/ed/57453a042696ad7fdfce2011ea14ba35b52a57",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/service/impl/UserServiceImpl.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/service/impl/UserServiceImpl.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/07/909aba61fb9875a8727a3b0b1226b6b478b8d6",
+                "outputPath": ".git/objects/07/909aba61fb9875a8727a3b0b1226b6b478b8d6",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/2d/434df229f8da534824d57faaba10c0e03beb4c",
+                "outputPath": ".git/objects/2d/434df229f8da534824d57faaba10c0e03beb4c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/constant/FileConstant.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/constant/FileConstant.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/resources/mapper/UserMapper.xml.ftl",
+                "outputPath": "src/main/resources/mapper/UserMapper.xml",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/50/77e13966803a429fb227c2b65f9ae81aaa5c32",
+                "outputPath": ".git/objects/50/77e13966803a429fb227c2b65f9ae81aaa5c32",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/8e/46fa27aa3a3a6e38351dbecaf500a7b36d448d",
+                "outputPath": ".git/objects/8e/46fa27aa3a3a6e38351dbecaf500a7b36d448d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/55/563ac8442c21e47a552dd4f395bfa03d3c6048",
+                "outputPath": ".git/objects/55/563ac8442c21e47a552dd4f395bfa03d3c6048",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/f7/9aed613b230a49cf8f72194c0b13a295ed1a6c",
+                "outputPath": ".git/objects/f7/9aed613b230a49cf8f72194c0b13a295ed1a6c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/.DS_Store",
+                "outputPath": "src/.DS_Store",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/6b/b415f875f41e510c2c9bfb29b7356f5f11434b",
+                "outputPath": ".git/objects/6b/b415f875f41e510c2c9bfb29b7356f5f11434b",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/c9/f44ff075b76517cd605c33a153c7a799de5b97",
+                "outputPath": ".git/objects/c9/f44ff075b76517cd605c33a153c7a799de5b97",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d4/d3d0fbac9c0e43784eafa85f9531829171debe",
+                "outputPath": ".git/objects/d4/d3d0fbac9c0e43784eafa85f9531829171debe",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/1e/feaa47040d8602073b6432076ca9c1bbe1cd81",
+                "outputPath": ".git/objects/1e/feaa47040d8602073b6432076ca9c1bbe1cd81",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/manager/CosManager.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/manager/CosManager.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/92/463ac3627ee976a7f856d7f828551bd39f90fa",
+                "outputPath": ".git/objects/92/463ac3627ee976a7f856d7f828551bd39f90fa",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/f0/5abd3fa23cdd1ae73bf614402592bf6991ac40",
+                "outputPath": ".git/objects/f0/5abd3fa23cdd1ae73bf614402592bf6991ac40",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/file/UploadFileRequest.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/file/UploadFileRequest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/config/JsonConfig.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/config/JsonConfig.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/60/001f64eb160389f2e13315d74a6773a2e8a9a7",
+                "outputPath": ".git/objects/60/001f64eb160389f2e13315d74a6773a2e8a9a7",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/28/fa8f4e726880982ab55ef3f1e70a905e5b774a",
+                "outputPath": ".git/objects/28/fa8f4e726880982ab55ef3f1e70a905e5b774a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/wxmp/handler/SubscribeHandler.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/wxmp/handler/SubscribeHandler.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/93/de80666cc0ddfef1c35a7057143cb1da635ffe",
+                "outputPath": ".git/objects/93/de80666cc0ddfef1c35a7057143cb1da635ffe",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/04/e0e91f5c414289fdccf6073ef8801377be598d",
+                "outputPath": ".git/objects/04/e0e91f5c414289fdccf6073ef8801377be598d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserLoginRequest.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserLoginRequest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/d7/aadaafa7edb865969d71ccfc04109830aa9aa4",
+                "outputPath": ".git/objects/d7/aadaafa7edb865969d71ccfc04109830aa9aa4",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/96/e7cf36a6418237b2ed92725013620fc95893fc",
+                "outputPath": ".git/objects/96/e7cf36a6418237b2ed92725013620fc95893fc",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/index",
+                "outputPath": ".git/index",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/annotation/AuthCheck.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/annotation/AuthCheck.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/bf/eab2ce7ec9afcb8a706406d2de3980c6d8b9ae",
+                "outputPath": ".git/objects/bf/eab2ce7ec9afcb8a706406d2de3980c6d8b9ae",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/b1/70655d327c14c792729c0e5dc0cc353c03261e",
+                "outputPath": ".git/objects/b1/70655d327c14c792729c0e5dc0cc353c03261e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/f2/b6033bac0d3954306340d49e00922c86a857b4",
+                "outputPath": ".git/objects/f2/b6033bac0d3954306340d49e00922c86a857b4",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/6a/41c8731c00f64424c0aaf5db2887bee02c5446",
+                "outputPath": ".git/objects/6a/41c8731c00f64424c0aaf5db2887bee02c5446",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "doc/swagger.png",
+                "outputPath": "doc/swagger.png",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/exception/GlobalExceptionHandler.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/exception/GlobalExceptionHandler.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/bd/30a9a838d3dc05c43f0656ded9b47135379791",
+                "outputPath": ".git/objects/bd/30a9a838d3dc05c43f0656ded9b47135379791",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/6e/7dd1c64bd31f4fcd3204dc87419a8c76a5b450",
+                "outputPath": ".git/objects/6e/7dd1c64bd31f4fcd3204dc87419a8c76a5b450",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/bc/52fc62f9560d8883353031ed19cb9e34598737",
+                "outputPath": ".git/objects/bc/52fc62f9560d8883353031ed19cb9e34598737",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/e6/1aa903d3a14e6e281d14442c40b375c28db42c",
+                "outputPath": ".git/objects/e6/1aa903d3a14e6e281d14442c40b375c28db42c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/15/c8a3e93531947990eb823db4c28adc1b122b67",
+                "outputPath": ".git/objects/15/c8a3e93531947990eb823db4c28adc1b122b67",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d1/e0bc655f82ba5a770b480ca068a04fa9f093c5",
+                "outputPath": ".git/objects/d1/e0bc655f82ba5a770b480ca068a04fa9f093c5",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/14/674d8480217119d07f1a201737c6873b105a38",
+                "outputPath": ".git/objects/14/674d8480217119d07f1a201737c6873b105a38",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/update.sample",
+                "outputPath": ".git/hooks/update.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ef/7825b337d08fc933ed1de4af5b019589d989dd",
+                "outputPath": ".git/objects/ef/7825b337d08fc933ed1de4af5b019589d989dd",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/9b/0f86d90a9baf221bfbc87620f62c5f73f19822",
+                "outputPath": ".git/objects/9b/0f86d90a9baf221bfbc87620f62c5f73f19822",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/service/PostThumbServiceTest.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/service/PostThumbServiceTest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/entity/User.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/entity/User.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/hooks/pre-applypatch.sample",
+                "outputPath": ".git/hooks/pre-applypatch.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/pre-commit.sample",
+                "outputPath": ".git/hooks/pre-commit.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/e5/57dddbf353ea2b4d1f1a00f268e6a30b67980c",
+                "outputPath": ".git/objects/e5/57dddbf353ea2b4d1f1a00f268e6a30b67980c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/common/ResultUtils.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/common/ResultUtils.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/db/257fb64ee3f46f2eafe23b8cc9068f98ea700b",
+                "outputPath": ".git/objects/db/257fb64ee3f46f2eafe23b8cc9068f98ea700b",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/commit-msg.sample",
+                "outputPath": ".git/hooks/commit-msg.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/0a/b5e9179cea1bad7a325880bee39d630472103a",
+                "outputPath": ".git/objects/0a/b5e9179cea1bad7a325880bee39d630472103a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/controller/UserController.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/controller/UserController.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/c9/d5ecd0ec84cfc46fada374c166c84096cdcc29",
+                "outputPath": ".git/objects/c9/d5ecd0ec84cfc46fada374c166c84096cdcc29",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/dataSources/d2d00328-ee6b-4613-a519-e274f69b1283/storage_v2/_src_/schema/performance_schema.kIw0nw.meta",
+                "outputPath": ".idea/dataSources/d2d00328-ee6b-4613-a519-e274f69b1283/storage_v2/_src_/schema/performance_schema.kIw0nw.meta",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d1/fc8e94f20bd089f7d925af1ad565749f3377ba",
+                "outputPath": ".git/objects/d1/fc8e94f20bd089f7d925af1ad565749f3377ba",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/85/544b38044efca0ea2ad557cd84cee7663c845d",
+                "outputPath": ".git/objects/85/544b38044efca0ea2ad557cd84cee7663c845d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "README.md",
+                "outputPath": "README.md",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/bf/de44b3e2133876bb31c0dead78d44300f7582e",
+                "outputPath": ".git/objects/bf/de44b3e2133876bb31c0dead78d44300f7582e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/74/9ef6dc211a0bff16b960475490564cf1ca5f99",
+                "outputPath": ".git/objects/74/9ef6dc211a0bff16b960475490564cf1ca5f99",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ed/6bb874d18c6a4806a4037be37382309ddd98e8",
+                "outputPath": ".git/objects/ed/6bb874d18c6a4806a4037be37382309ddd98e8",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/dd/f3ef7757f62835755f7bc29f3125c8ad4a17cb",
+                "outputPath": ".git/objects/dd/f3ef7757f62835755f7bc29f3125c8ad4a17cb",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/38/32dba0f5e0513ee6c7709a432fc3183a92c20f",
+                "outputPath": ".git/objects/38/32dba0f5e0513ee6c7709a432fc3183a92c20f",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/82/d3416ae2b4931c35877ad949186d357462927e",
+                "outputPath": ".git/objects/82/d3416ae2b4931c35877ad949186d357462927e",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserUpdateMyRequest.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserUpdateMyRequest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/96/13efa193d51afdbfc8f8d43051bcd4a978e483",
+                "outputPath": ".git/objects/96/13efa193d51afdbfc8f8d43051bcd4a978e483",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/codeStyles/codeStyleConfig.xml",
+                "outputPath": ".idea/codeStyles/codeStyleConfig.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/sendemail-validate.sample",
+                "outputPath": ".git/hooks/sendemail-validate.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/pre-receive.sample",
+                "outputPath": ".git/hooks/pre-receive.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/common/ErrorCode.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/common/ErrorCode.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/c2/4dbad533b696e1866d58aedf63f96bb4d5ad76",
+                "outputPath": ".git/objects/c2/4dbad533b696e1866d58aedf63f96bb4d5ad76",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/c0/65cba25d002a611c74e25b3f482609cc23a106",
+                "outputPath": ".git/objects/c0/65cba25d002a611c74e25b3f482609cc23a106",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/40/5947d443c439e0a882bd503354908d4092822d",
+                "outputPath": ".git/objects/40/5947d443c439e0a882bd503354908d4092822d",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a9/b6aa7327a3bd4b190739cdbc1adea867e8998a",
+                "outputPath": ".git/objects/a9/b6aa7327a3bd4b190739cdbc1adea867e8998a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/6c/55b9cd7afc9ed764f365641d7c79fde5be0f51",
+                "outputPath": ".git/objects/6c/55b9cd7afc9ed764f365641d7c79fde5be0f51",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/resources/banner.txt",
+                "outputPath": "src/main/resources/banner.txt",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/post-update.sample",
+                "outputPath": ".git/hooks/post-update.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/15/d1e88bb84f9078c3948d262f142944809052b9",
+                "outputPath": ".git/objects/15/d1e88bb84f9078c3948d262f142944809052b9",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/44/f7318b0c3ed5c88dfed072a278c08f2f0ec12f",
+                "outputPath": ".git/objects/44/f7318b0c3ed5c88dfed072a278c08f2f0ec12f",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/d4/705b3e9dd2ce1a26b564f58a124fa4bfa87cd9",
+                "outputPath": ".git/objects/d4/705b3e9dd2ce1a26b564f58a124fa4bfa87cd9",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/f5/b639300c06cfd176318cff1c453ed071e0e68c",
+                "outputPath": ".git/objects/f5/b639300c06cfd176318cff1c453ed071e0e68c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/resources/META-INF/additional-spring-configuration-metadata.json",
+                "outputPath": "src/main/resources/META-INF/additional-spring-configuration-metadata.json",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/COMMIT_EDITMSG",
+                "outputPath": ".git/COMMIT_EDITMSG",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a0/26d8156813f314cb6b2887925099d4a0a62d7c",
+                "outputPath": ".git/objects/a0/26d8156813f314cb6b2887925099d4a0a62d7c",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/64/a253584ba2ef6fdbd341aab841f6a1f77669f1",
+                "outputPath": ".git/objects/64/a253584ba2ef6fdbd341aab841f6a1f77669f1",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/vo/UserVO.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/vo/UserVO.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserQueryRequest.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/model/dto/user/UserQueryRequest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/9e/2816af7b4c7636473ceecbd0814163c5587b66",
+                "outputPath": ".git/objects/9e/2816af7b4c7636473ceecbd0814163c5587b66",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/main/java/com/yupi/springbootinit/utils/NetUtils.java.ftl",
+                "outputPath": "src/main/java/com/yupi/springbootinit/utils/NetUtils.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/9e/4c4c6e0f68fce96fcdd5e6457b54e9d6a3cb52",
+                "outputPath": ".git/objects/9e/4c4c6e0f68fce96fcdd5e6457b54e9d6a3cb52",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/bc/3d8c10911ba4dccc01c34a133f31803f8ab564",
+                "outputPath": ".git/objects/bc/3d8c10911ba4dccc01c34a133f31803f8ab564",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/hooks/fsmonitor-watchman.sample",
+                "outputPath": ".git/hooks/fsmonitor-watchman.sample",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/05/18706c73e1ba3d715ae458144111605e0b28fa",
+                "outputPath": ".git/objects/05/18706c73e1ba3d715ae458144111605e0b28fa",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/04/256b62f5306e01b8f098169215f13a7f327ecc",
+                "outputPath": ".git/objects/04/256b62f5306e01b8f098169215f13a7f327ecc",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a9/a22d94e4ebd95398aa311082365eb77e6f20c7",
+                "outputPath": ".git/objects/a9/a22d94e4ebd95398aa311082365eb77e6f20c7",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/c8/466274899bb1a823943a0c751439d75b52b41a",
+                "outputPath": ".git/objects/c8/466274899bb1a823943a0c751439d75b52b41a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a9/317abe9cfb194e0465ac4a30777fd2ae77bc0a",
+                "outputPath": ".git/objects/a9/317abe9cfb194e0465ac4a30777fd2ae77bc0a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "src/test/java/com/yupi/springbootinit/service/PostServiceTest.java.ftl",
+                "outputPath": "src/test/java/com/yupi/springbootinit/service/PostServiceTest.java",
+                "type": "file",
+                "generateType": "dynamic"
+            },
+            {
+                "inputPath": ".git/objects/a1/354a7f410ea4523c0a9e4eacd0a12244996361",
+                "outputPath": ".git/objects/a1/354a7f410ea4523c0a9e4eacd0a12244996361",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/13/6687cb35dd62c183b00af02bf1102eaac78d8b",
+                "outputPath": ".git/objects/13/6687cb35dd62c183b00af02bf1102eaac78d8b",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".idea/codeStyles/Project.xml",
+                "outputPath": ".idea/codeStyles/Project.xml",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/a7/01e602f0ef2f201142ec4e24c72ae062fe96b5",
+                "outputPath": ".git/objects/a7/01e602f0ef2f201142ec4e24c72ae062fe96b5",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": "Dockerfile",
+                "outputPath": "Dockerfile",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/cd/8771de6ec98982f49daed9504b4303d7ec81f8",
+                "outputPath": ".git/objects/cd/8771de6ec98982f49daed9504b4303d7ec81f8",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/cf/0ddea7b410efac15f264cf191295c8c0a0e19a",
+                "outputPath": ".git/objects/cf/0ddea7b410efac15f264cf191295c8c0a0e19a",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/f3/e8bbcaf88fb6f7ea38252f5faa1578cb017840",
+                "outputPath": ".git/objects/f3/e8bbcaf88fb6f7ea38252f5faa1578cb017840",
+                "type": "file",
+                "generateType": "static"
+            },
+            {
+                "inputPath": ".git/objects/ae/73c7d90b60f1c867e0f256ccb4a1d0e6f4cdaf",
+                "outputPath": ".git/objects/ae/73c7d90b60f1c867e0f256ccb4a1d0e6f4cdaf",
+                "type": "file",
+                "generateType": "static"
+            }
+        ]
+    },
+    "modelConfig": {
+        "models": [
+            {
+                "type": "MysqlConfig",
+                "description": "用于生成MySQL数据库配置",
+                "groupKey": "mysqlConfig",
+                "groupName": "MySQL数据库配置",
+                "models": [
+                    {
+                        "fieldName": "password",
+                        "type": "String",
+                        "description": "密码",
+                        "defaultValue": "123456"
+                    },
+                    {
+                        "fieldName": "url",
+                        "type": "String",
+                        "description": "地址",
+                        "defaultValue": "jdbc:mysql://localhost:3306/my_db"
+                    },
+                    {
+                        "fieldName": "username",
+                        "type": "String",
+                        "description": "用户名",
+                        "defaultValue": "root"
+                    }
+                ]
+            },
+            {
+                "type": "DocsConfig",
+                "description": "用于生成接口文档配置",
+                "groupKey": "docsConfig",
+                "groupName": "接口文档配置",
+                "models": [
+                    {
+                        "fieldName": "description",
+                        "type": "String",
+                        "description": "接口文档描述",
+                        "defaultValue": "springboot-init"
+                    },
+                    {
+                        "fieldName": "title",
+                        "type": "String",
+                        "description": "接口文档标题",
+                        "defaultValue": "接口文档"
+                    },
+                    {
+                        "fieldName": "version",
+                        "type": "String",
+                        "description": "接口文档版本",
+                        "defaultValue": "1.0"
+                    }
+                ],
+                "condition": "needDocs"
+            },
+            {
+                "fieldName": "needDocs",
+                "type": "boolean",
+                "description": "是否开启接口文档功能",
+                "defaultValue": true
+            },
+            {
+                "fieldName": "needPost",
+                "type": "boolean",
+                "description": "是否开启帖子功能",
+                "defaultValue": true
+            },
+            {
+                "fieldName": "needCors",
+                "type": "boolean",
+                "description": "是否开启跨域功能",
+                "defaultValue": true
+            },
+            {
+                "fieldName": "needEs",
+                "type": "boolean",
+                "description": "是否开启ES功能",
+                "defaultValue": true
+            },
+            {
+                "fieldName": "basePackage",
+                "type": "String",
+                "description": "基础包名",
+                "defaultValue": "com.yupi"
+            },
+            {
+                "fieldName": "needRedis",
+                "type": "boolean",
+                "description": "是否开启Redis功能",
+                "defaultValue": true
+            }
+        ]
+    }
+}

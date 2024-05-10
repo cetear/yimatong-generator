@@ -21,6 +21,8 @@ public class TemplateMakerFileConfig {
     public static class FileInfoConfig {
         private String path;
 
+        private String condition;
+
         private List<FileFilterConfig> filterConfigList;
     }
 
@@ -33,6 +35,10 @@ public class TemplateMakerFileConfig {
         private String groupKey;
 
         private String groupName;
+
+        private String type;
+
+        private String description;
 
     }
 }
